@@ -26,7 +26,7 @@ if(isset($_GET['p'])){
         // variable p pas dans le switch 
         default:
             
-            include "../templates/error404View.php";
+            include "../templates/erreur404View.php";
     }
 
 // sinon nous sommes sur l'accueil    

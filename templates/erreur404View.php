@@ -22,7 +22,7 @@ include "inc/menuIncView.php";
     </header> 
 
     <main>
-
+        <h3>ERROOOOOOOOOOOR 404 :/</h3>
     </main>
 
     <footer>
