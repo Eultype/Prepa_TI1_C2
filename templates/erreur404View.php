@@ -8,7 +8,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Preparation TI 1 classe 2</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
         
 <body>
@@ -20,3 +20,15 @@ include "inc/menuIncView.php";
             ?>
         </nav>  
     </header> 
+
+    <main>
+
+    </main>
+
+    <footer>
+        <?php
+include "inc/footerIncView.php";
+        ?>
+    </footer>
+</body>
+</html>
