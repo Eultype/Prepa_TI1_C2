@@ -20,6 +20,10 @@ header {
     color: white; 
 }
 
+img {
+	padding: 100px 0 0 350px;
+}
+
 /* Style pour le menu */
 nav ul {
     margin: 0;
@@ -32,6 +36,7 @@ nav ul {
 nav ul li {
     margin: 0 4em;
     list-style: none;
+	padding : 10px;
 }
 
 nav a {
@@ -148,7 +153,7 @@ p {
 
 .row-col-form input,
 .row-col-form textarea {
-	width: 100%;
+	width: 96%;
 	font-size: 14px;
 	border: none;
 	border-radius: 5px;

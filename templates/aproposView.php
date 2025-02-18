@@ -22,6 +22,8 @@ include "inc/menuIncView.php";
     </header> 
 
     <main>
+        <h2><?= $title ?></h2>
+        <img src="img/moi.png" alt="moi" width="300px" height="300px">
     </main>
 
     <footer>

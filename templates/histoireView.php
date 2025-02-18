@@ -24,6 +24,8 @@ include "inc/menuIncView.php";
     <main>
         <h2>Voici notre histoire en photo</h2>
         <img src="img/images.jpeg" alt="Cat1" width="200px" height="200px">
+        <img src="img/images (1).jpeg" alt="Cat2" width="200px" height="200px">
+        <img src="img/téléchargement.jpeg" alt="Cat3" width="200px" height="200px"> 
         
     </main>
     <footer>
