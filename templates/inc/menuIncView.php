@@ -1,13 +1,13 @@
-<?php
-?>
-    <ul>
-        <li>
-            <a href="./?p=apropos">A propos</a>
-        </li>
-        <li>
-            <a href="./?p=histoire">Histoire</a>
-        </li>
-        <li>
-            <a href="./?p=contact">Exposition</a>
-        </li>
-    </ul>   
+<ul>
+    <li>
+        <a href="./">Accueil</a>
+    <li>
+        <a href="./?p=aboutme">A propos</a>
+    </li>
+    <li>
+        <a href="./?p=history">Histoire</a>
+    </li>
+    <li>
+        <a href="./?p=contact">Contact</a>
+    </li>
+</ul>   

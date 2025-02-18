@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+}
+
+main {
+    flex: 1;
+}
+/* Style général pour le body */
+body {
+    background-color: #DDD0C8;
+    color:#323232;
+    font-family: 'Roboto';
+    min-height: 100vh;
+    flex-direction: column;
+    display: flex;
+}
+
+/* Style pour le header */
+header {
+    color: white; 
+}
+
+/* Style pour le menu */
+nav ul {
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; /* Centre verticalement tous les éléments dans le menu */
+    background-color: #e5e3e1;
+}
+
+nav ul li {
+    margin: 0 4em;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #323232;
+    font-weight: bold;
+    font-family: 'Roboto';
+    font-size: 22px;
+}
+
+/* Rendre le menu "intéractif" lorsque qu'on passe dessus*/
+nav a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+h1 {
+	padding-top: 20%;
+    text-align: center;
+    font-size: 80px;
+}
+
+h2 {
+	text-align: center;
+	font-size: 60px;
+	padding-top: 30px;
+}
+
+p {
+	font-size: 15px;
+	color: #465B52;
+	margin: 15px 0 20px 0;
+	line-height: 30px;
+}
+/* Style pour le footer */
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #333; 
+    color: white;
+}
+
+/* Style pour le contact */
+h4 {
+	font-size: 20px;
+	color: #3D3F3F;
+}
+
+p {
+	font-size: 15px;
+	color: #465B52;
+	margin: 15px 0 20px 0;
+	line-height: 30px;
+}
+
+/* ----- Formulaire de contact ----- */
+/* Le formulaire est centré, hauteur de 70vh, et avec une marge de 10vh, en haut et en bas */
+.contact-form {
+	width: 100%;
+	background-image: url("../images/datascience.jpg");
+	background-size: cover;
+	height:100vh;
+	position: relative;		/* pour définir les références du positionnement absolu du formulaire */
+}
+
+.form {
+	width: 50%;
+	background-color: #F0F1F3;
+	padding: 40px;
+	border-radius: 10px;
+	height:70vh;
+	position: absolute;
+	top:10vh;
+	margin-left: 48%;
+	left: -25%;
+}
+
+.form h4 {
+	color: #4A4948;
+	font-size: 26px;
+	font-weight: 600;
+	margin-bottom: 16px;
+	line-height: 30px;
+}
+
+.form p {
+	color: #4A4948;
+	font-size: 15px;
+	padding-bottom: 10px;
+}
+
+.row-form {
+	width: 100%;
+}
+
+.row-form input {
+	width:45%;
+	font-size: 14px;
+	border: none;
+	border-radius: 5px;
+	background-color: white;
+	color:#4A4948;
+	padding: 15px 20px;
+	margin-bottom: 20px;
+}
+
+.row-form input[name='nom']{
+	float: left;
+}
+
+.row-form input[name='email']{
+	float: right;
+}
+
+.row-col-form input,
+.row-col-form textarea {
+	width: 100%;
+	font-size: 14px;
+	border: none;
+	border-radius: 5px;
+	background-color: white;
+	color: #4A4948;
+	padding: 15px 20px;
+	margin-bottom: 20px;
+	resize: none;
+}
+
+.row-col-form button {
+	width: 100%;
+	font-size: 20px;
+	border: none;
+	border-radius: 5px;
+	background-color: #1B2148;
+	color: white;
+	padding: 12px 20px;
+	margin-bottom: 20px;
+	resize: none;
+}
+
+.row-col-form button:hover {
+	background-color: #1F7DF5;
+	transition: 0.6s;
+}

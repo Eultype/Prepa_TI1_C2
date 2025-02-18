@@ -11,28 +11,28 @@ if(isset($_GET['p'])){
 
     // création d'un switch qui va vérifier la variable get p
     switch($_GET['p']){
-        case "entreprise":
-            include "../view/entrepriseView.php";
+        case "aboutme":
+            $title = 'A propos';
+            include "../templates/aproposView.php";
             break;
-        case "interview":
-            include "../view/interviewView.php";
+        case "history":
+            $title = 'Histoire';
+            include "../templates/histoireView.php";
             break;
-        case "expo":
-            include "../view/expositionView.php";
-            break;
-        case "conclusion":
-            include "../view/conclusionView.php";
-            break;
-        case "galerie":
-            include "../view/galerieView.php";
+        case "contact":
+            $title = 'Contact';
+            include "../templates/contactView.php";
             break;
         // variable p pas dans le switch 
         default:
-            include "../view/error404View.php";
+            
+            include "../templates/error404View.php";
     }
 
 // sinon nous sommes sur l'accueil    
 }else{
+    // homepage title
+    $title = "Accueil";
     // Appel de la vue
-    include "../view/homepageView.php";
+    include "../templates/accueilView.php";
 }
